@@ -25,7 +25,7 @@ cd url_shortner
 
 2️⃣ Install dependencies
 ```
-npm install
+npm i nodemon --save-dev mongoose express crypto 
 ```
 
 This installs:
