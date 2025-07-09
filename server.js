@@ -10,10 +10,8 @@ app.use(express.json());
 
 app.post("/shorten",async(req,res)=>{
     const url = req.body.url
- 
-    const geturl = await urlModel.findOne({ Original: url });
-    
-    
+    const geturl = await urlModel.findOne({ Original: url })
+
     if(geturl){
         const shortcode= geturl.shortCode
         return res.status(200).json({shortcode})
