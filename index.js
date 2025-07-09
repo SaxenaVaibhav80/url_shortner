@@ -40,7 +40,7 @@ app.get("/:code",async(req,res)=>
     if(isShortcode){
         return res.redirect(isShortcode.Original)
     }
-    return  res.status(400).json({message:"Please send existed URL or correct url"})
+    return  res.status(400).json({message:"Please send existed code or correct code"})
 })
 
 
