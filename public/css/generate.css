@@ -99,3 +99,13 @@ body{
 ::placeholder{
     color: #24383a;
 }
+
+#home{
+    text-decoration: none;
+    color: #002230;
+}
+
+#home:active,#home:visited{
+    color: #002230;
+    text-decoration: none;
+}

@@ -77,3 +77,12 @@ img {
     color: #00405f;
     text-decoration: none;
 }
+
+#home{
+    text-decoration: none;
+    color: #002230;
+}
+#home:visited,#home:active{
+    text-decoration: none;
+    color: #002230;
+}

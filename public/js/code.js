@@ -18,6 +18,7 @@ function getCode()
         if(id.status==200 && id.shortCode!="null")
         {
           url.value= id.shortCode
+          makebtn()
         }else{
             alert(id.status)
         }
@@ -31,7 +32,27 @@ function getCode()
 codebtn.addEventListener("click",()=>
 {   
     getCode()
-    const copybtn=document.getElementsByClassName("copy")[0]
+
+})
+
+
+url.addEventListener("keydown",(e)=>
+{
+    console.log("keypress")
+  if (e.key) {
+      const copy= document.getElementsByClassName("copy")[0]
+      if(copy!=undefined)
+      {
+        copy.classList.add("hide")
+        codebtn.classList.remove("hide")
+
+      }
+    }
+})
+
+function makebtn()
+{
+     const copybtn=document.getElementsByClassName("copy")[0]
     if(copybtn)
     {
        codebtn.classList.add("hide")
@@ -56,22 +77,6 @@ codebtn.addEventListener("click",()=>
         codeDiv.appendChild(newbtn)
 
     }
-   
-})
-
-
-url.addEventListener("keydown",(e)=>
-{
-    console.log("keypress")
-  if (e.key) {
-      const copy= document.getElementsByClassName("copy")[0]
-      if(copy!=undefined)
-      {
-        copy.classList.add("hide")
-        codebtn.classList.remove("hide")
-
-      }
-    }
-})
+}
 
 
