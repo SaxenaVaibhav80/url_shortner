@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+}
+nav{
+    width: 80%;
+    /* border: 2px solid grey; */
+    background-color: #94B1B5;
+    border-radius: 20px;
+    padding: 20px 40px 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 90px;
+    margin-top: 30px;
+    text-decoration: none;
+}
+.items {
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    width: 19%;
+    text-decoration: none;
+}
+.title{
+    color: #002230;
+}
+.content{
+    width: 35%;
+    margin-left: 51px;
+}
+#use,#generate{
+    text-decoration: none;
+    color: #00405f;
+}
+#use:visited,#use:active,#generate:active,#generate:visited{
+    color: #00405f;
+    text-decoration: none;
+}
+body{
+    background-color:#507D82;
+    font-family:acumin-pro,"Acumin Pro","Helvetica Neue",Helvetica, Arial ,sans-serif
+}
+#code-gen-div {
+    border: 1px solid rgb(28, 80, 80);
+    width: 530px;
+    height: 270px;
+    margin-left: 30%;
+    margin-top: 10%;
+    border-radius: 15px;
+    text-align: center;
+}
+#url,#code-space{
+    width: 75%;
+    color: #255a60;
+    border-style: none;
+    padding-left: 20px;
+    border: 2px solid #00405f;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 10%;    
+    background-color:#94B1B5;
+    outline: none;
+}
+
+.code-btn,.web-btn{
+    width: 40%;
+    cursor: pointer;
+   color: #255a60;
+    border-style: none;
+    border: 2px solid #00405f;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 7%;
+    background-color: #94B1B5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+}
+
+.copy{
+    width: 20%;
+    color: #255a60;
+    border-style: none;
+    border: 2px solid #00405f;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 7%;
+    background-color: #94B1B5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40%;
+    cursor: pointer;
+}
+.hide{
+    display: none;
+}
+
+::placeholder{
+    color: #24383a;
+}
