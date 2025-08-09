@@ -1,13 +1,14 @@
 *{
     margin: 0;
 }
-nav{
+nav {
     width: 80%;
     /* border: 2px solid grey; */
-    background-color: #94B1B5;
+    background-color: #1b1b1b;
     border-radius: 20px;
     padding: 20px 40px 20px 40px;
-    display: flex;
+    display: flex
+;
     justify-content: space-between;
     margin-left: 90px;
     margin-top: 30px;
@@ -20,8 +21,8 @@ nav{
     width: 19%;
     text-decoration: none;
 }
-.title{
-    color: #002230;
+.title {
+    color: #474747;
 }
 .content{
     width: 35%;
@@ -29,63 +30,63 @@ nav{
 }
 #use,#generate{
     text-decoration: none;
-    color: #00405f;
+    color:#474747;
 }
-#use:visited,#use:active,#generate:active,#generate:visited{
-    color: #00405f;
+#use:visited, #use:active, #generate:active, #generate:visited {
+    color:  #474747;
     text-decoration: none;
 }
-body{
-    background-color:#507D82;
-    font-family:acumin-pro,"Acumin Pro","Helvetica Neue",Helvetica, Arial ,sans-serif
+body {
+    background-color: #000000;
+    font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 #code-gen-div {
-    border: 1px solid rgb(28, 80, 80);
     width: 530px;
     height: 270px;
     margin-left: 30%;
     margin-top: 10%;
     border-radius: 15px;
     text-align: center;
+    border: 3px solid #4f5f6f;
 }
-#url,#code-space{
+#url, #code-space {
     width: 75%;
-    color: #255a60;
+    color: #585b5c;
     border-style: none;
     padding-left: 20px;
-    border: 2px solid #00405f;
+    padding-right: 20px;
+    border: 2px solid #4f5f6f;
     height: 50px;
     border-radius: 10px;
-    margin-top: 10%;    
-    background-color:#94B1B5;
+    margin-top: 10%;
+    background-color: #202020;
     outline: none;
 }
-
-.code-btn,.web-btn{
+.code-btn, .web-btn {
     width: 40%;
     cursor: pointer;
-   color: #255a60;
+    color: #585b5c;
     border-style: none;
-    border: 2px solid #00405f;
+    border: 2px solid #4f5f6f;
+    background-color: #202020;
     height: 50px;
     border-radius: 10px;
     margin-top: 7%;
-    background-color: #94B1B5;
-    display: flex;
+    display: flex
+;
     justify-content: center;
     align-items: center;
     margin-left: 30%;
 }
-
 .copy{
     width: 20%;
-    color: #255a60;
+    color: #585b5c;
     border-style: none;
-    border: 2px solid #00405f;
+    border: 2px solid #4f5f6f;
+    background-color: #202020;
     height: 50px;
     border-radius: 10px;
     margin-top: 7%;
-    background-color: #94B1B5;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,7 +98,9 @@ body{
 }
 
 ::placeholder{
-    color: #24383a;
+    color: #585b5c;
+    font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
 }
 
 #home{
@@ -105,7 +108,7 @@ body{
     color: #002230;
 }
 
-#home:active,#home:visited{
-    color: #002230;
+#home:active, #home:visited {
+    color: #474747;
     text-decoration: none;
 }
